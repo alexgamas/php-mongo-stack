@@ -1,0 +1,7 @@
+FROM webdevops/php-apache-dev:latest
+
+RUN apt-get update -y
+RUN apt-get upgrade -y
+
+
+
